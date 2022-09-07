@@ -17,7 +17,9 @@ public class NewGame : Functional
     private void COSCOFBAGTPM(byte num)
     {
         Console.Clear();
+        Console.ResetColor();
         Console.WriteLine("The length of game number was chose successfully");
+        Thread.Sleep(2000);
         oneBound = num;
         // Go to h menu;
         cm = cm.ParentMenu;
@@ -28,8 +30,10 @@ public class NewGame : Functional
     private void COSCOSBAGTPM(byte num)
     {
         Console.Clear();
+        Console.ResetColor();
         Console.WriteLine("The length of game number was chose successfully");
         twoBound = num;
+        Thread.Sleep(2000);
         // Go to h menu;
         cm = cm.ParentMenu;
         cm.showMenu();

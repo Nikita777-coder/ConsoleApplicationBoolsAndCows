@@ -10,13 +10,7 @@ class Menu : MainFunctions
 {
     // Console Menu.
     private ConsoleMenu cm;
-    
-    // Start application.
-    private static void Main()
-    {
-        new Menu();
-    }
-    
+
     /// <summary>
     /// Launch menu.
     /// </summary>
